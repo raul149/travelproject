@@ -1,0 +1,45 @@
+PokTraCo – Roadmap 5 Semanas (Tickets Jira)
+Semana 1 – Entorno y prototipo inicial
+Ticket	Duración	Tarea	Entregable	Foco aprendizaje
+S1-T1	1h30	Crear repo GitHub y estructura inicial	Repo con carpetas /backend, /docker	Organización proyecto, git
+S1-T2	2h	FastAPI “Hello World”	Endpoint /ping local funcional	FastAPI básico, rutas, pruebas
+S1-T3	2h	Dockerizar FastAPI	Dockerfile para API	Contenedores, reproducibilidad
+S1-T4	1h30	Docker Compose inicial	Compose con API + MySQL vacío	Orquestación básica, networking
+S1-T5	2h	Probar despliegue local	API corriendo en Compose	Debug contenedores, logs
+S1-T6	1h30	Documentación inicial	README con setup y run commands	Comunicación técnica portfolio
+Semana 2 – Modelado de datos y CRUD
+Ticket	Duración	Tarea	Entregable	Foco aprendizaje
+S2-T1	1h30	Diseñar esquema DB	Diagrama entidades-relaciones	Modelado relacional, normalización
+S2-T2	2h	Crear DB MySQL + tablas	Base de datos con constraints	SQL, integridad referencial
+S2-T3	2h	CRUD Users	Endpoints /users (GET, POST, PUT, DELETE)	FastAPI + SQLAlchemy, validaciones
+S2-T4	1h30	CRUD Destinations	Endpoints /destinations	Relaciones y atributos complejos
+S2-T5	2h	CRUD Experiences	Endpoints /experiences	Relaciones many-to-many, testing
+S2-T6	1h30	Documentar endpoints	Swagger UI + ejemplos	Comunicación de APIs
+S2-T7	1h	Test de integración	Crear registros de prueba y probar endpoints	Debugging, reproducibilidad
+Semana 3 – Recomendaciones básicas / ML
+Ticket	Duración	Tarea	Entregable	Foco aprendizaje
+S3-T1	2h	Preparar dataset inicial	CSV/DataFrame con destinos y puntuaciones	Data cleaning, estructuras de datos
+S3-T2	1h30	Implementar modelo KNN/CF	Modelo entrenado con dataset	ML básico, explicación de métricas
+S3-T3	2h	Crear endpoint /recommend	Recomendaciones devueltas por API	Integración ML + backend
+S3-T4	1h30	Prueba de usuario	Probar recomendaciones con distintos usuarios	Testing, debugging
+S3-T5	2h	Validación y métricas	Calcular similitud, precisión, recall	Explicabilidad ML
+S3-T6	1h	Documentación	README + ejemplos de requests/responses	Comunicación portfolio
+Semana 4 – Discovery y gamificación
+Ticket	Duración	Tarea	Entregable	Foco aprendizaje
+S4-T1	2h	Endpoint /discover	Filtro por país, tipo de experiencia, afinidad	Lógica discovery y filtros dinámicos
+S4-T2	1h30	Sistema de puntuación	Incrementar puntos y logros por experiencias	Gamificación y tracking de usuario
+S4-T3	2h	Sistema de fichas tipo Pokedex	Desbloqueo de fichas por logros	UX gamificada, storytelling
+S4-T4	1h30	Mini interfaz Streamlit	Mostrar destinos y progreso de fichas	Visualización rápida, interactividad
+S4-T5	2h	Integrar API + interfaz	Endpoint /discover consumido por frontend	Full stack mínimo viable
+S4-T6	2h	Testing y ajustes	Pruebas con varios usuarios y filtros	Debug UX, reproducibilidad
+S4-T7	1h	Documentación visual	Screenshots y explicación de flujo	Portfolio y storytelling de datos
+Semana 5 – Optimización, Azure y despliegue final
+Ticket	Duración	Tarea	Entregable	Foco aprendizaje
+S5-T1	2h	Revisar y optimizar Dockerfiles	Dockerfiles optimizados para backend, MySQL y frontend	Contenedores optimizados, reducción de errores y tamaño
+S5-T2	1h30	Consolidar Docker Compose	Compose final con todos los servicios	Orquestación completa y reproducible
+S5-T3	2h	Pruebas locales integrales	Test end-to-end de API + ML + UI	Debug multi-servicio, aseguramiento funcional
+S5-T4	1h30	Configurar Azure Container Registry	Push de imágenes al registro	Gestión contenedores en Cloud
+S5-T5	2h	Desplegar en Azure App Service / Container Instances	App corriendo en Azure con acceso público	Cloud deployment, networking, configuración real
+S5-T6	1h30	Pipeline CI/CD básico	Pipeline que builda y despliega contenedores automáticamente	Azure DevOps / GitHub Actions, reproducibilidad profesional
+S5-T7	1h30	Pruebas post-despliegue	Validar endpoints, ML y frontend en Azure	Testing producción, debugging remoto
+S5-T8	1h	Documentación final	README + guía paso a paso + screenshots	Portfolio profesional, storytelling técnico
